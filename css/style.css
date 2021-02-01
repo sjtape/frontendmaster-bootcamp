@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+html {
+    font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+/* ====================
+        GENERAL
+==================== */
+.active {
+    border-bottom: 2px solid #737373;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    margin: 0.5em 1em 0.5em 0;
+}
+
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 2.5em;
+}
+
+
+
+/* =================
+        TEXT
+================= */
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    margin-bottom: 1.2em;
+}
+
+h2,
+h3,
+h4 {
+    margin-bottom: 0.5rem;
+}
+
+/* =================
+        NAVBAR
+================= */
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+.navbar {
+    text-align: right;
+}
+
+.navbar li {
+    text-align: left;
+    margin: 3em;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+
+
+.hamburger {
+    width: 45px;
+    cursor: pointer;
+}
+
+/* TOGGLE MENU */
+
+.menu {
+    color: #fff;
+    height: 70vh;
+    width: 60%;
+    background-color: #000;
+    position: absolute;
+    right: 0;
+    transition-duration: 1s;
+    opacity: 90%;
+}
+
+.hide-menu {
+    display: none;
+}
+
+
+.open-menu {
+    display: block;
+
+}
+
+/* =================
+        heading
+================= */
+
+.profile-pic {
+    margin-bottom: 1em;
+}
+
+.profile img {
+    width: 146px;
+    height: 146px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.profile-info p {
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.social {
+    margin-bottom: 0;
+}
+
+.social h4 {
+    margin-bottom: 0;
+}
+
+.social li:last-child {
+    margin-right: 0;
+}
+
+
+
+/* =================
+        article
+================= */
+article ul {
+    list-style: disc;
+    margin: 0 1em;
+}
+
+a.page {
+    text-decoration: underline;
+}
+
+
+blockquote h4 {
+    font-weight: 600;
+}
+
+
+/* =================
+        ASIDE
+================= */
+/* =================
+footer {
+=======
+        .main-footer
+================= */
+.main-footer {
+    text-align: center;
+    color: #737373;
+    background-color: #2E2E2E;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer p {
+    margin: 0;
+}
+
+.fm-logo {
+    margin: 0 auto;
+}
+
+.thank {
+    margin-top: 1em;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .main-footer .block {
+        align-items: center;
+    }
+
+    .fm-logo {
+        margin: 0;
+        margin-left: 0.5em;
+    }
+
+    .present {
+        flex-basis: 50%;
+        order: 1;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 1366px) {
+    main {
+        margin-bottom: 3em;
+    }
+
+    main .flex {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+
+    .profile,
+    .hide-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .profile,
+    .profile-pic {
+        flex-basis: 50%;
+    }
+
+    .profile {
+        margin-bottom: 0;
+    }
+
+    .social {
+        margin-top: 2em;
+        align-self: start;
+    }
+
+    .about article {
+        flex-basis: 60%;
+    }
+
+    .fm-logo {
+        margin-left: 1em;
+    }
+
+
+
+
+
+    .hamburger {
+        display: none;
+    }
+
+    .hide-menu {
+        /* background-color: brown; */
+        justify-content: flex-end;
+    }
+
+    .navbar a {
+        color: #000;
+        font-weight: 600;
+    }
+
+
+    .navbar li {
+        text-align: left;
+        margin: 1em 2em;
+    }
+
+    .navbar li:last-child {
+        margin-right: 1em;
+    }
+
+
+    .dflex {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+/* =================
+        pages
+================= */
+
+/* HOBBIES */
+
+
+/* BOOK CHAPTER */

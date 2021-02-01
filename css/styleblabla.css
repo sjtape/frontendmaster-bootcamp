@@ -1,0 +1,45 @@
+img {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+p {
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+blockquote {
+    font-weight: 600;
+}
+
+
+.book-chapter {
+    padding: 1em;
+    width: 80%;
+    max-width: 60em;
+    margin: 0 auto;
+    border: 1px solid;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.book-chapter img {
+    float: left;
+    margin: 0 1em 1em 0;
+    max-width: 30em;
+}
+
+
+.clear {
+    clear: both;
+}
+
+article footer {
+    margin-top: 3em;
+    border-top: 1px solid grey;
+}
+
+.book-chapter p.fw {
+    font-weight: 600;
+}

@@ -1,0 +1,47 @@
+p {
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+blockquote {
+    font-weight: 600;
+}
+
+
+
+.book-chapter article {
+    /* overflow: hidden; */
+    margin-bottom: 5em;
+    flex-basis: 70%;
+    padding: 1em;
+    border: 1px solid;
+    /* text-align: justify; */
+}
+
+.book-chapter img {
+    float: left;
+    margin: 0 1em 1em 0;
+    max-width: 30em;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.book-chapter footer {
+    margin-top: 3em;
+    border-top: 1px solid grey;
+}
+
+.book-chapter p.fw {
+    font-weight: 600;
+}
+
+ol {
+    margin-left: 1em;
+}
+
+ol li {
+    padding-left: 0.5em;
+}
