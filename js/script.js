@@ -17,8 +17,8 @@ const toggleMenu = function () {
     }
 
     const changeImg = e => {
-
-        if (this.document.URL.includes('index.html')) {
+        // For Homepage
+        if (this.document.title === 'Home') {
             if (e.src.includes('close')) {
                 e.src = "./images/hamburger.svg";
                 return
@@ -26,7 +26,9 @@ const toggleMenu = function () {
             if (e.src.includes('hamburger')) {
                 e.src = "./images/close.svg";
             }
-        } else {
+        }
+        // For other Pages
+        else {
             if (e.src.includes('close')) {
                 e.src = "../images/hamburger.svg";
                 return
@@ -36,6 +38,11 @@ const toggleMenu = function () {
             }
         }
     }
+    // this.document.URL.includes('index.html')
+
+
+
+
 
     // let marginTop = function () {
     // const profile = document.querySelector('.profile-pic');
