@@ -10,12 +10,9 @@ blockquote {
 
 
 .book-chapter article {
-    /* overflow: hidden; */
     margin-bottom: 5em;
     flex-basis: 70%;
-    padding: 1em;
     border: 1px solid;
-    /* text-align: justify; */
 }
 
 .book-chapter img {
@@ -44,4 +41,5 @@ ol {
 
 ol li {
     padding-left: 0.5em;
+
 }
