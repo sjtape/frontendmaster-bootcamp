@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/calculator.css">
     <title>Calculator</title>
 </head>
 
@@ -34,9 +35,47 @@
 
 
         <main class="dflex">
-            <section class="blog">
-                <h1>Calculator</h1>
-            </section>
+            <div class="container">
+                <section class="intro">
+                    <h1>Calculator</h1>
+                </section>
+                <article class=" calc">
+                    <section class="screen">
+                        0
+                    </section>
+
+                    <section class="calc-buttons">
+                        <div class="calc-btn-row">
+                            <button class="calc-btn double">&comp;</button>
+                            <button class="calc-btn">&larr;</button>
+                            <button class="calc-btn">&divide;</button>
+                        </div>
+                        <div class="calc-btn-row">
+                            <button class="calc-btn">7</button>
+                            <button class="calc-btn">8</button>
+                            <button class="calc-btn">9</button>
+                            <button class="calc-btn">&times;</button>
+                        </div>
+                        <div class="calc-btn-row">
+                            <button class="calc-btn">4</button>
+                            <button class="calc-btn">5</button>
+                            <button class="calc-btn">6</button>
+                            <button class="calc-btn">&minus;</button>
+                        </div>
+                        <div class="calc-btn-row">
+                            <button class="calc-btn">1</button>
+                            <button class="calc-btn">2</button>
+                            <button class="calc-btn">3</button>
+                            <button class="calc-btn">&plus;</button>
+                        </div>
+                        <div class="calc-btn-row">
+                            <button class="calc-btn triple">0</button>
+                            <button class="calc-btn">&equals;</button>
+                        </div>
+                    </section>
+                </article>
+            </div>
+
             <aside>
                 <div class="container">
                     <nav>
@@ -88,6 +127,7 @@
 
 </body>
 <script src="../../js/sub-script.js"></script>
+<script src="../../js/calculator.js"></script>
 <!-- <script src="../../js/script.js"></script> -->
 
 </html>
